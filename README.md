@@ -9,7 +9,7 @@
 
 ```javascript
 export default function Greg() {
-  mainSkills: disponibilty | self-taught,
+  mainSkills: disponibilty && self-taught,
   code: [
   Javascript,
   Typescript,
