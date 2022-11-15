@@ -11,26 +11,26 @@
 export default function Greg() {
   mainSkills: disponibilty && self-taught,
   code: [
-  Javascript,
-  Typescript,
-  HTML,
-  CSS,
-  Python
+    Javascript,
+    Typescript,
+    HTML,
+    CSS,
+    Python
   ],
   tools: [
-  NextJS,
-  React,
-  VisualStudioCode,
-  GitHub,
-  SQLite,
-  MongoDB
+    NextJS,
+    React,
+    VisualStudioCode,
+    GitHub,
+    SQLite,
+    MongoDB
   ],
   communication: {
       speaking: french|english,
       e-mail: "g.morel.apps@gmail.com",
       living: "France"
                   },
- lifeProject: "Lookinf for developper/IT work"
+ lifeProject: "Looking for developper/IT work"
  energy: 100%
  motivation: overflowing
 }
