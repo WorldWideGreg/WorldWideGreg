@@ -4,7 +4,7 @@
 [![Linkedin: Greg Morel](https://img.shields.io/badge/-GregMorel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gregory-morel/)](https://www.linkedin.com/in/gregory-morel/)  
   
   
-<p><em> I'm a self-learning dev, tech lover, I totally love this world of creating things and tools that helps people, that makes things easier, faster or prettier!</em></p>  
+<p><em> I'm a self-taught dev, tech lover, I totally love this world of creating things and tools that helps people, that makes things easier, faster or prettier!</em></p>  
 
 
 ```javascript
