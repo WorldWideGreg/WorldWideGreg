@@ -6,34 +6,47 @@
   
 <p><em> I'm a self-taught dev, tech lover, I totally love this world of creating things and tools that helps people, that makes things easier, faster or prettier!</em></p>  
 
-
 ```javascript
-export default function Greg() {
-  mainSkills: disponibilty && self-taught,
-  code: [
-    Javascript,
-    Typescript,
-    HTML,
-    CSS,
-    Python
-  ],
-  tools: [
-    NextJS,
-    React,
-    VisualStudioCode,
-    GitHub,
-    SQLite,
-    MongoDB
-  ],
-  communication: {
-      speaking: french|english,
-      e-mail: "g.morel.apps@gmail.com",
-      living: "France"
-                  },
- lifeProject: "Looking for developper/IT work"
- energy: 100%
- motivation: overflowing
+interface GregsNeedsAndMotivations {
+  salary: SalaryTypes;
+  insurance: InsuranceTypes;
+  workEnvironment: WorkEnvironmentTypes;
+  techStack: Techs[];
+}
+
+interface GregsValue {
+  efficiency: EfficiencyTypes;
+  productivity: ProductivityTypes;
+  reliability: ReliabilityTypes;
+  autonomy: AutonomyTypes;
+  techSkills: string[];
+  softSkills: string[];
+}
+
+function greg(hiringIncentives: GregsNeedsAndMotivations): GregsValue {
+  const {salary, insurance, workEnvironment, techStack} = hiringIncentives;
+  if (salary !== SalaryTypes.ADEQUATE || insurance !== InsuranceTypes.COMPETITIVE || workEnvironment !== WorkEnvironmentsTypes.ENGAGING) {
+    return HeadHunterResponses.REFUSE;
+  }
+
+  return {
+    efficiency: EfficiencyTypes.VERY,
+    productivity: ProductivityTypes.VERY_PRODUCTIVE,
+    reliability: ReliabilityTypes.VERY_RELIABLE,
+    autonomy: AutonomyTypes.AUTONOMOUS,
+    techSkills: [
+      'TypeScript', 'JavaScript', 'Python' // Add as many as you want/think is good
+    ],
+    softSkills: [
+      'self-taught', 'mature', 'detail-oriented' // etc...
+    ]
+  }
+}
+
+const answer = greg({...WhatYouAsACompanyHaveToOffer});
+
+console.log(answer);
 }
 ```
 
-<em> Feel free to contact me</em> :v:
+Thanks Jp for this  :joy:
