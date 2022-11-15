@@ -35,10 +35,10 @@ function greg(hiringIncentives: GregsNeedsAndMotivations): GregsValue {
     reliability: ReliabilityTypes.VERY_RELIABLE,
     autonomy: AutonomyTypes.AUTONOMOUS,
     techSkills: [
-      'TypeScript', 'JavaScript', 'Python' // Add as many as you want/think is good
+      'TypeScript', 'JavaScript', 'Python', 'GitHub', 'ReactJS', 'NextJS'
     ],
     softSkills: [
-      'self-taught', 'mature', 'detail-oriented' // etc...
+      'self-taught', 'mature', 'detail-oriented', 'reliable', 'disponible' 
     ]
   }
 }
