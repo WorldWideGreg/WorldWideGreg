@@ -38,7 +38,7 @@ function greg(hiringIncentives: GregsNeedsAndMotivations): GregsValue {
       'TypeScript', 'JavaScript', 'Python', 'GitHub', 'ReactJS', 'NextJS'
     ],
     softSkills: [
-      'self-taught', 'mature', 'detail-oriented', 'reliable', 'disponible' 
+      'self-taught', 'mature', 'detail-oriented' 
     ]
   }
 }
