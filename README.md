@@ -30,7 +30,7 @@ export default function Greg() {
       e-mail: "g.morel.apps@gmail.com",
       living: "France"
                   },
- lifeProject: "Aiming a developper/IT work as a self-taught converted of almost 40 years old"
+ lifeProject: "Lookinf for developper/IT work"
  energy: 100%
  motivation: overflowing
 }
